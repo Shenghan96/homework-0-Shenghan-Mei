@@ -31,13 +31,6 @@ if __name__ == '__main__':
         for n in [1,2,5,10]:
             print("{} * {} = {}".format(a, n, egyptian_multiplication(a,n)))
 
-def power(a,n):
-    computes the power a ** n
-    assume n is a nonegative integer
-    """
-    pass
-#Egyptian algorithm
-
 def power(a, n):
     def isodd(n):
         return n & 0x1 == 1
@@ -55,5 +48,11 @@ def power(a, n):
 power(3,3)
 power(4,4)
 power(5,3)
+    computes the power a ** n
+    assume n is a nonegative integer
+    """
+    pass
+
+
 
     
