@@ -8,7 +8,7 @@ This is a markdown file (the `.md` extension gives it away). If you have never u
 You don't need to say anything here.  Just complete [`fizzbuzz.py`](fizzbuzz.py).
 
 ## Problem 1
-
+There are floor(log2(n))+#n-1 additions done  
 ## Problem 2
 
 ## Problem 3
