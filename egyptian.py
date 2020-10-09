@@ -52,6 +52,8 @@ def power(a, n):
     else:
         return power(a * a, n // 2)
 
-power(4,3)
+power(3,3)
+power(4,4)
+power(5,3)
 
     
