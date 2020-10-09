@@ -32,8 +32,25 @@ if __name__ == '__main__':
             print("{} * {} = {}".format(a, n, egyptian_multiplication(a,n)))
 
 
+#Egyptian algorithm
+#floor(log2(n))+#n-1
+
 def power(a, n):
-    """
+    def isodd(n):
+        return n & 0x1 == 1
+
+    if n == 1:
+        return a
+    if n == 0:
+        return 0
+
+    if isodd(n):
+        return power(a * a, n // 2) * a
+    else:
+        return power(a * a, n // 2)
+
+power(4,3)
+
     computes the power a ** n
 
     assume n is a nonegative integer
